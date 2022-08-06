@@ -1,0 +1,36 @@
+.history-card-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .history-card-container {
+    flex-direction: row;
+  }
+}
+.time {
+  color: #475569;
+  font-weight: 600;
+}
+.hist-container {
+  display: flex;
+}
+.title {
+  color: #475569;
+  font-weight: 800;
+}
+.url {
+  color: #64748b;
+  font-weight: 500;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .title-container {
+    flex-direction: row;
+  }
+}
+.delete-button {
+  align-self: flex-end;
+}
